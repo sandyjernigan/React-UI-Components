@@ -7,11 +7,7 @@ const HeaderTitle = () => {
         <div class="HeaderTitle">
             <div class="title">Lambda School</div>
             <div class="author">@LambdaSchool</div>
-            <div  class="date">
-                <ul>
-                    <li>26 jan</li>
-                </ul>
-            </div>
+            <div  class="date"> &bull; 26 jan </div>
         </div>
     );
 }

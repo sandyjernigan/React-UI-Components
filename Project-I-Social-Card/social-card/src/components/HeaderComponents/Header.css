@@ -1,1 +1,50 @@
 /* All styles for your header Components live here */
+header {
+    width: 500px;
+}
+
+.HeaderTitle {
+    display: flex; 
+    align-items: center;
+    font-size: 0.8rem;
+    padding-top: 10px;
+    /*
+    justify-content: (default is flex-start)  flex-end | center | space-between | space-around | space-evenly 
+    align-items: (default is stretch)  flex-start | flex-end | center | baseline 
+    flex-direction: (default is row) row-reverse | column | column-reverse 
+    flex-wrap: (default is nowrap) wrap | wrap-reverse 
+    */
+}
+    .title {
+        font-weight: bold;
+        font-size: 1rem;
+    }
+    .author {
+        margin: 5px;
+        color: grey;
+    }
+    .date {
+        color: grey;
+    }
+    .date li {
+        margin-left: -10px;
+    }
+
+.ImageThumbnail {
+    float: left;
+    display: flex; 
+    align-items: center;
+    flex: 0 1 auto;
+    width: 50px;
+    border: 1px black solid;
+    border-radius: 50%;
+    padding: 2% 1.5% 0.5% 2%;
+    margin: 10px;
+}
+    .ImageThumbnail img {
+        align-self: center;
+        width: 95%;
+    }
+
+.HeaderContent {
+}
