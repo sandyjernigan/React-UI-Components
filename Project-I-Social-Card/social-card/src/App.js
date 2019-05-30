@@ -18,8 +18,9 @@ const App = () => {
           inside of this file in order to make them work.
         </strong>
       </p>
-      <div className="header">
+      <div className="socialCard">
         <Header />
+        
       </div>
     </div>
   );

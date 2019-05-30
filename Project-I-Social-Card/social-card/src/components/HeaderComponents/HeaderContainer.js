@@ -1,10 +1,11 @@
 import React from 'react';
 import './Header.css';
+import ImageThumbnail from './ImageThumbnail';
 
 const Header = () => {
     return (
       <header>
-          <h1>Test Header</h1>
+          <ImageThumbnail />
       </header>
     );
 }
