@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Header from './components/HeaderComponents/HeaderContainer';
+import CardContainer from './components/CardComponents/CardContainer';
 
 const App = () => {
   return (
@@ -20,7 +21,7 @@ const App = () => {
       </p>
       <div className="socialCard">
         <Header />
-        
+        <CardContainer />
       </div>
     </div>
   );
