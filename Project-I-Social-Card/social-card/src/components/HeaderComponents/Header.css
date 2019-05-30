@@ -1,14 +1,21 @@
 /* All styles for your header Components live here */
 header {
     width: 500px;
+    font-size: 0.8rem;
+}
+
+.HeaderContainer {
+    display: flex; 
+    flex-wrap: wrap;
+    padding-top: 20px;
 }
 
 .HeaderTitle {
     display: flex; 
-    align-items: center;
-    font-size: 0.8rem;
-    padding-top: 10px;
+    align-items: baseline;
+
     /*
+    
     justify-content: (default is flex-start)  flex-end | center | space-between | space-around | space-evenly 
     align-items: (default is stretch)  flex-start | flex-end | center | baseline 
     flex-direction: (default is row) row-reverse | column | column-reverse 
@@ -47,4 +54,5 @@ header {
     }
 
 .HeaderContent {
+    font-size: 0.9rem;
 }
