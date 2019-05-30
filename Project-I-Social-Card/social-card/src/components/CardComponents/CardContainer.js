@@ -14,4 +14,22 @@ const CardContainer = () => {
     );
 }
 
+// class CardContainer extends React.Component {
+//     constructor(props) {
+//         super(props);
+//     };
+//     goToReact() {
+//         window.location.href = 'https://www.reactjs.org'; 
+//         return null;
+//     }
+//     render() {
+//         return (
+//             <div class="CardContainer" onclick={this.goToReact}>
+//                 <CardBanner />
+//                 <CardContent />
+//             </div>
+//         );
+//     }
+// }
+
 export default CardContainer;
