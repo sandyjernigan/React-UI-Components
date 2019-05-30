@@ -1,1 +1,26 @@
 /* All styles for your Card Components live here */
+
+/* div id="CardContainer" */
+#CardContainer {
+    width: 500px;
+}
+
+/* div class="CardBanner" */
+.CardBanner {
+    width: 100%;
+}
+    /* img alt="Card Banner" */
+    .CardBanner img {
+        width: 100%;
+    }
+
+/* div class="CardContent" 
+.CardContent {
+}
+.CardContent h2 {
+}
+.CardContent p {
+}
+.reference {
+}
+*/
