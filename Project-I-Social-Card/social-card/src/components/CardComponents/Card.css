@@ -1,23 +1,28 @@
 /* All styles for your Card Components live here */
 
 .CardContainer {
-    width: 500px;
+    width: 410px;
+    margin-left: 90px;
+    margin-top: 10px;
 }
 
 .CardBanner {
-    width: 100%;
+    font-size: 0.8rem;
 }
     .CardBanner img {
         width: 100%;
+        border-radius: 8px;
     }
 
-/* 
 .CardContent {
+    font-size: 0.8rem;
 }
 .CardContent h2 {
+    color: #181818;
 }
 .CardContent p {
+    color: #181818;
 }
-.reference {
+.CardContent .reference {
+    color: grey;
 }
-*/
