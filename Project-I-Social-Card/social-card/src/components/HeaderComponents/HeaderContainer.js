@@ -2,19 +2,15 @@
 import React from 'react';
 import './Header.css';
 import ImageThumbnail from './ImageThumbnail';
+import HeaderTitle from './HeaderTitle';
 
 const Header = () => {
     return (
       <header>
           <ImageThumbnail />
-          
+          <HeaderTitle />
       </header>
     );
 }
 
 export default Header;
-
-
-// Create a <HeaderTitle /> component that displays the Lambda School header text, @LambdaSchool handle and timestamp.
-// Create a <HeaderContent /> component that displays the copy provided in the headers content.
-
