@@ -29,6 +29,7 @@ const Footer = () => {
     return (
       <footer>
           This is the footer.
+          <img src="../../svgs/sync.svg" />
       </footer>
     );
 }
