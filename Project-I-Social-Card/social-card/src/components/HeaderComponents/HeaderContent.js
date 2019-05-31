@@ -1,6 +1,5 @@
 // Create a <HeaderContent /> component that displays the copy provided in the headers content.
 import React from 'react';
-import './Header.css';
 
 const HeaderContent = () => {
     return (

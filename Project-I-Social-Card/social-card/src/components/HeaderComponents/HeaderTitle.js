@@ -1,6 +1,5 @@
 // Create a <HeaderTitle /> component that displays the Lambda School header text, @LambdaSchool handle and timestamp.
 import React from 'react';
-import './Header.css';
 
 const HeaderTitle = () => {
     return (

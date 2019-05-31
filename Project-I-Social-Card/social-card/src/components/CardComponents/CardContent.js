@@ -1,6 +1,5 @@
 // Create a <CardContent /> component that displays the card copy provided.
 import React from 'react';
-import './Card.css';
 
 const CardContent = () => {
     return (
