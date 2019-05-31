@@ -4,40 +4,40 @@
 // Look up the moment.js library and figure out how to format your time-stamp in your header to be todays date.
 
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './Footer.css';
 
-const cardIcons = [
-    {
-        icon: name,
-        numCalled: 0
-    }, 
-    {
-        icon: name,
-        numCalled: 0
-    }, 
-    {
-        icon: name,
-        numCalled: 0
-    }, 
-    {
-        icon: name,
-        numCalled: 0
-    }
-]
+// const cardIcons = [
+//     {
+//         icon: iconname,
+//         numCalled: 0
+//     }, 
+//     {
+//         icon: iconname,
+//         numCalled: 0
+//     }, 
+//     {
+//         icon: iconname,
+//         numCalled: 0
+//     }, 
+//     {
+//         icon: iconname,
+//         numCalled: 0
+//     }
+// ];
 
 const Footer = () => {
     return (
       <footer>
+          This is the footer.
       </footer>
     );
 }
 export default Footer;
 
-const FooterIcons = () => {
-    return (
-      <footer>
-      </footer>
-    );
-}
-export default Footer2;
+// const FooterIcons = () => {
+//     return (
+//       <footer>
+//       </footer>
+//     );
+// }
+// export default FooterIcons;
