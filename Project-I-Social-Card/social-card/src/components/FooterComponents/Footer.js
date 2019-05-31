@@ -6,30 +6,33 @@
 import React from 'react';
 import './Footer.css';
 
-// const cardIcons = [
-//     {
-//         icon: iconname,
-//         numCalled: 0
-//     }, 
-//     {
-//         icon: iconname,
-//         numCalled: 0
-//     }, 
-//     {
-//         icon: iconname,
-//         numCalled: 0
-//     }, 
-//     {
-//         icon: iconname,
-//         numCalled: 0
-//     }
-// ];
+const cardIcons = [
+    {
+        icon: 'comment',
+        iconsrc: 'far fa-comment fa-flip-horizontal',
+        numCalled: 0
+    },
+    {
+        icon: 'sync',
+        iconsrc: 'fas fa-sync',
+        numCalled: 0
+    },
+    {
+        icon: 'heart',
+        iconsrc: 'far fa-heart',
+        numCalled: 0
+    },
+    {
+        icon: 'envelope',
+        iconsrc: 'far fa-envelope',
+        numCalled: 0
+    }
+];
 
 const Footer = () => {
     return (
       <footer>
-          This is the footer.
-          <img src="../../svgs/sync.svg" />
+          <i class="far fa-comment"></i> <i class="far fa-envelope"></i>
       </footer>
     );
 }
