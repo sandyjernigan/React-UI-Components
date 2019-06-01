@@ -16,12 +16,12 @@ const cardIcons = [
     {
         icon: 'sync',
         iconsrc: 'fas fa-sync',
-        numCalled: 0
+        numCalled: 6
     },
     {
         icon: 'heart',
         iconsrc: 'far fa-heart',
-        numCalled: 0
+        numCalled: 4
     },
     {
         icon: 'envelope',
@@ -33,7 +33,6 @@ const cardIcons = [
 const Footer = () => {
     return (
       <div class="footer">
-          <i class="far fa-comment"></i>
           <FooterIcons socialicon={cardIcons[0]} />
       </div>
     );

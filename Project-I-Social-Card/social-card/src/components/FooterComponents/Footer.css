@@ -6,7 +6,13 @@
     align-items: center;
 }
 
-.footer i {
+.footericons {
+    display: flex; 
+    align-items: center;
     margin-right: 30px;
+}
+
+.footer i, .footer span {
+    margin-left: 10px;
     font-size: 1rem;
 }
