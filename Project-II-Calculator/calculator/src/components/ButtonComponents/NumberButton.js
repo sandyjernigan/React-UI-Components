@@ -3,9 +3,8 @@ import './Button.css';
 
 const NumberButtons = () => {
     return (
-      <div class="NumberButtons">
+      <div class="numberButton">
       </div>
     );
 }
 export default NumberButtons;
-
