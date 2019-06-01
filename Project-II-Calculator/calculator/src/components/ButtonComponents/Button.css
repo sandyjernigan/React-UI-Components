@@ -1,33 +1,35 @@
 .btn {
+    flex: 1;
     border: 1px solid lightgray;
     text-align: center;
     padding: 5% 0;
+    min-width: 80px;
 }
-
 .numberButtons {
     flex: 3 auto;
-    display: flex;
-    flex-flow: row wrap-reverse;
-    border: 1px solid blue;
+    min-width: 60%;
 }
-
     .lgbtn {
-        flex: 1;
-        min-width: 90%;
+        min-width: 50%;
     }
-
-    .numberBtn {
-        flex: 1;
-        min-width: 25%;
-        background-color: white;
-        color: black;
+    .smallBtns {
+        display: flex;
+        flex-flow: row wrap-reverse;
     }
+        .numberBtn {
+            min-width: 30%;
+            background-color: white;
+            color: black;
+        }
 
 .actionButtons {
-    flex: 1 auto;
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1;
 }
-
-    .actionButton {
+    .actionBtn {
+        flex-basis: 100%;
         background-color: red;
         color: white;
+        padding-top: 30%;
     }

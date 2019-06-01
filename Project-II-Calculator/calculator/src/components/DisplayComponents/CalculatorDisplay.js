@@ -10,8 +10,13 @@ const calculatorObj = {
         equals: 'function placeholder',
         actionBar: [
             {
-                action: 'add',
-                display: '+',
+                action: 'divide',
+                display: '/',
+                function: 'function placeholder'
+            },
+            {
+                action: 'multiply',
+                display: 'x',
                 function: 'function placeholder'
             },
             {
@@ -20,13 +25,8 @@ const calculatorObj = {
                 function: 'function placeholder'
             },
             {
-                action: 'multiply',
-                display: '&times;',
-                function: 'function placeholder'
-            },
-            {
-                action: 'divide',
-                display: '&divide;',
+                action: 'add',
+                display: '+',
                 function: 'function placeholder'
             },
             {
@@ -41,17 +41,25 @@ const calculatorObj = {
 const Calculator = () => {
     return (
       <div class="calculator">
-          <div class="displayValue">{calculatorObj.display}</div>
-          <div class="numberButtons">
-            <div id="btn_0" class="btn lgbtn">0</div>
-            {([...Array(9).keys()].map(x => ++x)).map(number => {
-                return <NumberButtons number={number} />;
-            })}
+        <div class="displayValue">{calculatorObj.display}</div>
+
+        <div class="numberButtons">
             <div id="btn_clear" class="btn lgbtn">clear</div>
-          </div>
-          <div class="actionButtons">
-            <ActionButtons />
-          </div>
+            
+            <div class="smallBtns">
+                {([...Array(9).keys()].map(x => ++x)).map(number => {
+                    return <NumberButtons number={number} />;
+                })}
+            </div>
+
+            <div id="btn_0" class="btn lgbtn">0</div>
+        </div>
+
+        <div class="actionButtons">
+            {calculatorObj.actionBar.map(x => {
+                return <ActionButtons actionBtn={x} />;
+            })}
+        </div>
       </div>
     );
 }

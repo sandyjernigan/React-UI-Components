@@ -1,9 +1,10 @@
 import React from 'react';
 import './Button.css';
 
-const ActionButtons = () => {
+function ActionButtons(props) {
     return (
-      <div class="actionButton">
+      <div class="btn actionBtn">
+          {props.actionBtn.display}
       </div>
     );
 }
