@@ -10,8 +10,7 @@ import './Footer.css';
 const cardIcons = [
     {
         icon: 'comment',
-        iconsrc: 'far fa-comment fa-flip-horizontal',
-        numCalled: 0
+        iconsrc: 'far fa-comment fa-flip-horizontal'
     },
     {
         icon: 'sync',
@@ -26,14 +25,16 @@ const cardIcons = [
     {
         icon: 'envelope',
         iconsrc: 'far fa-envelope',
-        numCalled: 0
     }
 ];
 
 const Footer = () => {
     return (
       <div class="footer">
-          <FooterIcons socialicon={cardIcons[0]} />
+          {cardIcons.map(icon => {
+              return <FooterIcons socialicon={icon} />;
+          })}
+          
       </div>
     );
 }
