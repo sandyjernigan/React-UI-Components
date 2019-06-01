@@ -5,6 +5,7 @@ import ActionButtons from '../ButtonComponents/ActionButton';
 
 const calculatorObj = {
         display: 0,
+        selectedNumber: 0,
         clear: 'function placeholder',
         equals: 'function placeholder',
         actionBar: [
@@ -42,7 +43,14 @@ const Calculator = () => {
       <div class="calculator">
           <div class="displayValue">{calculatorObj.display}</div>
           <div class="numberButtons">
-            <div class="clearbutton">clear</div>
+            <div id="btn_clear" class="btn lgbtn">clear</div>
+            <NumberButtons number="7" />
+            <NumberButtons number="8" />
+            <NumberButtons number="9" />
+            <div id="btn_0" class="btn lgbtn">0</div>
+          </div>
+          <div class="actionButtons">
+            <ActionButtons />
           </div>
       </div>
     );

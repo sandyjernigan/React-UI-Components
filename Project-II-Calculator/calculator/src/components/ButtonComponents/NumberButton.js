@@ -1,9 +1,10 @@
 import React from 'react';
 import './Button.css';
 
-const NumberButtons = () => {
+function NumberButtons(props) {
     return (
-      <div class="numberButton">
+      <div id={props.number} class="btn numberBtn">
+          {props.number}
       </div>
     );
 }

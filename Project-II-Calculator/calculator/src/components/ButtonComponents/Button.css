@@ -1,3 +1,33 @@
-.numberButtons {
-    background-color: white;
+.btn {
+    border: 1px solid lightgray;
+    text-align: center;
+    padding: 5% 0;
 }
+
+.numberButtons {
+    flex: 3 auto;
+    display: flex;
+    flex-flow: row wrap;
+    border: 1px solid blue;
+}
+
+    .lgbtn {
+        flex: 1;
+        min-width: 90%;
+    }
+
+    .numberBtn {
+        flex: 1;
+        min-width: 25%;
+        background-color: white;
+        color: black;
+    }
+
+.actionButtons {
+    flex: 1 auto;
+}
+
+    .actionButton {
+        background-color: red;
+        color: white;
+    }
