@@ -4,6 +4,7 @@
 // Look up the moment.js library and figure out how to format your time-stamp in your header to be todays date.
 
 import React from 'react';
+import FooterIcons from './FooterIcons';
 import './Footer.css';
 
 const cardIcons = [
@@ -31,17 +32,10 @@ const cardIcons = [
 
 const Footer = () => {
     return (
-      <footer>
-          <i class="far fa-comment"></i> <i class="far fa-envelope"></i>
-      </footer>
+      <div class="footer">
+          <i class="far fa-comment"></i>
+          <FooterIcons socialicon={cardIcons[0]} />
+      </div>
     );
 }
 export default Footer;
-
-// const FooterIcons = () => {
-//     return (
-//       <footer>
-//       </footer>
-//     );
-// }
-// export default FooterIcons;
