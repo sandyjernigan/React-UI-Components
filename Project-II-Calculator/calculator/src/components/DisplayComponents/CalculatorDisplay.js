@@ -43,11 +43,11 @@ const Calculator = () => {
       <div class="calculator">
           <div class="displayValue">{calculatorObj.display}</div>
           <div class="numberButtons">
-            <div id="btn_clear" class="btn lgbtn">clear</div>
-            <NumberButtons number="7" />
-            <NumberButtons number="8" />
-            <NumberButtons number="9" />
             <div id="btn_0" class="btn lgbtn">0</div>
+            {([...Array(9).keys()].map(x => ++x)).map(number => {
+                return <NumberButtons number={number} />;
+            })}
+            <div id="btn_clear" class="btn lgbtn">clear</div>
           </div>
           <div class="actionButtons">
             <ActionButtons />
