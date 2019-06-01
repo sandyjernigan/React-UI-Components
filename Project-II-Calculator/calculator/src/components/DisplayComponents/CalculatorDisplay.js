@@ -1,5 +1,7 @@
 import React from 'react';
 import './Display.css';
+import NumberButtons from '../ButtonComponents/NumberButton';
+import ActionButtons from '../ButtonComponents/ActionButton';
 
 const calculatorObj = {
         display: 'comment',
@@ -18,3 +20,4 @@ const Calculator = () => {
     );
 }
 export default Calculator;
+
