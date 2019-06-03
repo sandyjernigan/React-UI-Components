@@ -11,7 +11,7 @@ const calculatorObj = {
         actionBar: [
             {
                 action: 'divide',
-                display: '/',
+                display: '÷',
                 function: 'function placeholder'
             },
             {
