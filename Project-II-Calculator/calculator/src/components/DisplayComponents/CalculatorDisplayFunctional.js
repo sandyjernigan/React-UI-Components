@@ -38,17 +38,27 @@ const calculatorObj = {
     };
     
 
-class FunctionalCalculator extends React.Component {
-    constructor() {
-        super()
+class Calculator extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            name: "Calc"
+        };
     }
+
+    render (){
+        return (
+            <div class="calculator">
+                <div class="displayValue">{calculatorObj.display}</div>
+            </div>
+        )}
 }
-export default FunctionalCalculator;
+export default Calculator;
 
 // Set aside old code for review
 // return (
 //     <div class="calculator">
-//       <div class="displayValue">{calculatorObj.display}</div>
+//       
 
 //       <div class="numberButtons">
 //           <div id="btn_clear" class="btn lgbtn">clear</div>
