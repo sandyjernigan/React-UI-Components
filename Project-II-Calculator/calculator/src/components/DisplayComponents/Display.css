@@ -1,0 +1,23 @@
+/* Container for the Calculator to Display */
+.calculator {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    max-width: 400px;
+    margin: 20px;
+    font-size: 2rem;
+    border: 10px solid black;
+    border-radius: 10px;
+}
+
+/* displayValue is the black box that will display the value for the calculator */
+.displayValue{
+    flex: 1;
+    min-width: 92%;
+    background-color: black;
+    color: white;
+    padding: 3%;
+    text-align: right;
+    font-size: 2.4rem;
+    border: 2px solid lightgray;
+}
