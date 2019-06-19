@@ -1,0 +1,23 @@
+.footer {
+    width: 410px;
+    margin-left: 90px;
+    margin-top: 10px;
+    display: flex; 
+    align-items: center;
+}
+
+.footericons {
+    display: flex; 
+    align-items: center;
+    margin-right: 30px;
+}
+
+.footer i, .footer span {
+    margin-left: 10px;
+    font-size: 1rem;
+    color: grey;
+}
+
+.footer i, .footer span {
+    font-size: 0.8rem;
+}
